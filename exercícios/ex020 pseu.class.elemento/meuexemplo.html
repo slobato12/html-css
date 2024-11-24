@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEU EXEMPLO HOVER</title>
+    <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+        }
+      div> p{
+        display: none;
+      }
+      div:hover > p{
+        display: block;
+        color: aliceblue;
+        background-color: blue;
+        width: 200px;
+        text-decoration: solid 10px;
+      }
+      div:hover{
+        color: blueviolet;
+      }
+      
+      
+    </style>
+</head>
+<body>
+    <h1>Meu hover</h1>
+    <h2>Clique no texto escondido abaixo</h2>
+    <div>AQUI
+      <p>texto oculto aqui</p>
+      <p>texto oculto aqui 5</p>
+      <p>texto oculto aqui 6</p>
+
+    </div>
+
+    
+</body>
+</html>
