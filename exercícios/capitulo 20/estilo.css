@@ -67,6 +67,10 @@ section {
     font-weight: bold;
 }
 
+section > p {
+    padding-bottom: 3em;
+}
+
 section.normal {
     background-color: rgb(245, 245, 245);
     color: black;
@@ -79,6 +83,14 @@ section.normal {
     display: inline-block;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.366);
+ }
+
+ section#img01{
+    background-image:url('../capitulo 20/desafio\ 012/;
+ }
+
+ section#img02{
+
  }
 footer{
     background-color: black;
