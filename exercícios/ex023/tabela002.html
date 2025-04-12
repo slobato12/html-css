@@ -11,6 +11,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -28,6 +29,20 @@
         thead{
             background-color: rgb(41, 40, 40);
             color: aliceblue;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(41, 40, 40) ;
+            /* Fixar com "top-1" o cabeçalho da tebela*/
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: lightgrey;
+        }
+        tbody > tr:nth-child(even){
+            background-color: azure;
+            
         }
         tfoot{
             background-color: grey;
@@ -110,6 +125,51 @@
             <td class="num">
                 11 824 665
             </td>
+            <tr>
+                <td>Pará</td>
+                <td class="num">10 000 444</td>
+            </tr>
+        </tr>
+        <tr>
+            <td>Piauí</td>
+            <td>9 555 444</td>
+        </tr>
+        <tr>
+            <td>Piauí</td>
+            <td>9 555 444</td>
+
+        </tr>
+        <tr>
+            <td>Piauí</td>
+            <td>9 555 444</td>
+        </tr>
+        <tr>
+            <td>Piauí</td>
+            <td>9 555 444</td>
+        </tr>
+        <tr>
+            <td>Piauí</td>
+            <td>9 555 444</td>
+        </tr>
+        <tr>
+            <td>Piauí</td>
+            <td>9 555 444</td>
+        </tr>
+        <tr>
+            <td>Piauí</td>
+            <td>9 555 444</td>
+        </tr>
+        <tr>
+            <td>Piauí</td>
+            <td>9 555 444</td>
+        </tr>
+        <tr>
+            <td>Piauí</td>
+            <td>9 555 444</td>
+        </tr>
+        <tr>
+            <td>Piauí</td>
+            <td>9 555 444</td>
         </tr>
     </tbody>
 
@@ -125,8 +185,17 @@
         
     </tfoot>
 
+   
+
  </table>
    
 </body>
+<footer>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repudiandae facere in dignissimos odit, accusamus illo natus dolorum animi amet ea praesentium dicta aut, facilis sequi voluptates, fugiat odio eum?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, consectetur placeat voluptate hic vero est consequuntur quaerat voluptatem error neque in magni soluta molestiae doloribus. Libero dicta iure possimus doloremque.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptas animi omnis asperiores vero veritatis? Quam accusamus at maxime iste eligendi. Rerum id quod pariatur saepe. Dolorum temporibus facilis quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id commodi laboriosam error provident, placeat consequuntur magnam quis nulla molestiae ea impedit totam sequi beatae blanditiis, quaerat hic ad sapiente consectetur!
+    
+    </p>
+</footer>
 
 </html>
